@@ -1,0 +1,14 @@
+# import matplotlib.pyplot as plt
+# import matplotlib.image as mpimg
+
+# # Load the image
+# image_path = "/home/millerd/workspace/DeepLearning/image_data/image_data/train/n02950826/n02950826_51.JPEG"
+# img = mpimg.imread(image_path)
+
+# # Display the image
+# plt.imshow(img)
+# plt.axis('off')  # Turn off axes
+# plt.show()
+
+import os 
+
