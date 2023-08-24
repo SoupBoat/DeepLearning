@@ -25,7 +25,7 @@ wbExperiments = openpyxl.load_workbook(r"/home/millerd/workspace/DeepLearning/Ex
 # wb = openpyxl.load_workbook("data.xlsx")    # for remote desktop Andy
 ExpSheet = wbExperiments['Experiments']
 # experiments = range(32, 38) #row corresponding to the experiments that you want to run. last number is not included. minimum is 2
-experiments = [33]   # for the custom experiments
+experiments = [45]   # for the custom experiments
 
 for experiment in experiments:
     for model_no in ["3"]: # models 2, 5, 6, 8, 9, 10 have been removed. do 7 after the greyscale ones are done
